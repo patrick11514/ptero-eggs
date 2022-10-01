@@ -1,6 +1,6 @@
 #!/bin/ash
-rm -rf /home/webhost/tmp/*
+rm -rf /home/container/tmp/*
 
 echo "Starting Nginx..."
 echo "Successfully started"
-/usr/sbin/nginx -c /home/webhost/nginx/nginx.conf -p /home/container/
+/usr/sbin/nginx -c /home/container/nginx/nginx.conf -p /home/container/
