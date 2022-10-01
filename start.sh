@@ -1,5 +1,5 @@
 #!/bin/ash
-rm -rf /home/container/tmp/*
+rm -rf /home/webhost/tmp/*
 
 echo "Starting Nginx..."
 echo "Successfully started"
